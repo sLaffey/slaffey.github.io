@@ -5,7 +5,7 @@
 状态转移方程：
 
 $$
-f[i] = \sum \_{j = 1}^{j < i} f[j] \times f[i - j] \times (2^j - 1) \times C^{j - 1} \_{i - 2}
+f[i] = \sum _{j = 1}^{j < i} f[j] \times f[i - j] \times (2^j - 1) \times C^{j - 1} _{i - 2}
 $$
 
 注意用高精就完了。
