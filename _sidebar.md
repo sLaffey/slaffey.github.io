@@ -1,0 +1,5 @@
+* [首页](/)
+* [题解](/tutorial/)
+  * [AtCoder](/tutorial/atcoder/)
+    * [ABC278D All Assign Point Add](/tutorial/atcoder/all-assign-point-add)
+  * [UVA1309 Sudoku](/tutorial/sudoku)
