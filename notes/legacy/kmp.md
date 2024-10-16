@@ -39,7 +39,7 @@
 
 &emsp;&emsp;放在图中就是灰色部分相等。
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668779999639/txsBZuyj4.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1668779999639/txsBZuyj4.png )
 
 &emsp;&emsp;然后我们证明 $next[j_0]$ 为最大的小于 $j_0$ 的候选项。
 
@@ -49,7 +49,7 @@
 
 &emsp;&emsp;我们还是放到图中来讲。由定义，前后两部分是相等的，因此我们取一段红色部分，显然也相等。这时发现后面的红色部分是与蓝色部分相等的。因此前面红蓝相等，即 $j_1$ 应满足 $next[j_0]$ 的条件，但 $j_1 > next[j_0]$，因此命题不成立。
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668780710698/b4hwExlv5.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1668780710698/b4hwExlv5.png )
 
 &emsp;&emsp;综上，我们证明了这个引理。
 

@@ -206,7 +206,7 @@ hack 数据如下。
 
 这个数据的输出就不粘了，画出图我们可以发现**这个图不是连通的**。
 
-![image.png](https://s2.loli.net/2022/05/02/GgcHRDaJfSjuAOx.png)
+![](https://s2.loli.net/2022/05/02/GgcHRDaJfSjuAOx.png)
 
 的确，原题中并没有提到关于这个图是否连通的问题，这也启发我们**认真读题**。
 
