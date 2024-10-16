@@ -369,8 +369,8 @@ int main()
 ```
 
 # 参考文献
-1. Coursera: Algorithms II, Prof. Robert Sedgewick https://www.coursera.org/learn/algorithms-part2
+1. [Coursera: Algorithms II](https://www.coursera.org/learn/algorithms-part2), Prof. Robert Sedgewick
 
-2. 最大流 - OI Wiki https://oi-wiki.org/graph/flow/max-flow
+2. [最大流 - OI Wiki](https://oi-wiki.org/graph/flow/max-flow)
 
 3. 《算法导论》, Introduction to Aogorithms, C.L.R.S.

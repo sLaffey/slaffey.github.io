@@ -21,6 +21,7 @@
     * [「KDOI-02」一个弹的投](/tutorial/legacy/missile)
   * [UVA1309 Sudoku](/tutorial/sudoku)
 * [算法笔记](/notes/)
+  * [最大流算法](/notes/maxflow)
   * [Legacy](/notes/legacy/)
     * [fread 优化快读](/notes/legacy/fread)
     * [「DP」背包问题](/notes/legacy/knapsack)
