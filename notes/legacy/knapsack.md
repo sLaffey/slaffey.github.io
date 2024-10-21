@@ -219,7 +219,7 @@ w[top] = tw * s;
 &emsp;&emsp;直接暴力升维即可。以 AcWing 的二维背包为例。不难写出状态转移方程：
 
 $$
-f[i, j, k] = \max \lbrace \max\_{1 \leq j \leq V, 1 \leq k \leq M} \lbrace f[i - 1, j - v[i], k - m[i]] + w[i] \rbrace , f[i  - 1, j, k] \rbrace
+f[i, j, k] = \max \lbrace \max _{1 \leq j \leq V, 1 \leq k \leq M} \lbrace f[i - 1, j - v[i], k - m[i]] + w[i] \rbrace , f[i  - 1, j, k] \rbrace
 $$
 
 &emsp;&emsp;加上滚动数组优化，得到代码：
