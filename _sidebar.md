@@ -31,3 +31,5 @@
     * [「DP」背包问题](/notes/legacy/knapsack)
     * [KMP 算法](/notes/legacy/kmp)
     * [Code Blocks 使用指南](/notes/legacy/instruction_codeblocks)
+* [CTF 笔记](/ctf/)
+  * [Schmidt-Samoa 密码体系](/ctf/schmidt_samoa)
