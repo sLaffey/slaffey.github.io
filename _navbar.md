@@ -1,4 +1,4 @@
 * 语言
 
   * [中文](/)
-  * [English](/en-us)
+  * [English](/en-us/)
