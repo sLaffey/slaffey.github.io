@@ -4,7 +4,7 @@
     * [ABC278D All Assign Point Add](/tutorial/atcoder/all-assign-point-add)
   * [Codeforces](/tutorial/codeforces)
     * [Codeforces Round 1004 Div.1](/tutorial/codeforces/1004_div1/)
-      * [CF2067D Object Identification](/tutorial/codeforces/1004_div1/object_identification.md)
+      * [CF2067D Object Identification](/tutorial/codeforces/1004_div1/object_identification)
   * [XCPC](/tutorial/virtual_participation/)
     * [2024 昆明邀请赛](/tutorial/virtual_participation/the_2024_icpc_kunming_invitational_contest/)
       * [Relearn Through Review](/tutorial/virtual_participation/the_2024_icpc_kunming_invitational_contest/relearn_through_review)
