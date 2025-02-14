@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Laffey's Blog</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -72,6 +72,22 @@
         // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
         // 匹配到的字符串将被用来识别索引
         pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+      },
+
+      // giscus support
+      giscus: {
+        repo: "sLaffey/slaffey.github.io",
+        repoID: "R_kgDONA8xWQ",
+        category: "Announcements",
+        categoryID: "DIC_kwDONA8xWc4Cm7S3",
+        mapping: "url",
+        reactionsEnabled: "1",
+        strict: "1",
+        emitMetadata: "0",
+        inputPosition: "top",
+        theme: "light",
+        lang: "zh-CN",
+        loading: "lazy"
       }
     }
   </script>
@@ -124,7 +140,10 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
   <!-- Giscus -->
-  <script src="https://giscus.app/client.js"
+  <!-- https://github.com/docsify-note/docsify-giscus/ -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.0/dist/giscus.css">
+  <script src="https://unpkg.com/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script>
+  <!-- <script 
   data-repo="sLaffey/slaffey.github.io"
   data-repo-id="R_kgDONA8xWQ"
   data-category="Announcements"
@@ -138,6 +157,6 @@
   data-lang="zh-CN"
   crossorigin="anonymous"
   async>
-</script>
+  </script> -->
 </body>
 </html>
