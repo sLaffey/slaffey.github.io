@@ -2,7 +2,7 @@
 * [题解](/tutorial/)
   * [AtCoder](/tutorial/atcoder/)
     * [ABC278D All Assign Point Add](/tutorial/atcoder/all-assign-point-add)
-  * [Codeforces](/tutorial/codeforces)
+  * [Codeforces](/tutorial/codeforces/)
     * [Codeforces Round 1004 Div.1](/tutorial/codeforces/1004_div1/)
       * [CF2067D Object Identification](/tutorial/codeforces/1004_div1/object_identification)
       * [CF2067E White Magic](/tutorial/codeforces/1004_div1/white_magic)
