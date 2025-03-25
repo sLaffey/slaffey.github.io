@@ -38,3 +38,4 @@
     * [Code Blocks 使用指南](/notes/legacy/instruction_codeblocks)
 * [CTF 笔记](/ctf/)
   * [Schmidt-Samoa 密码体系](/ctf/schmidt_samoa)
+* [友情链接](/links)
