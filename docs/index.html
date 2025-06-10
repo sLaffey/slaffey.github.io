@@ -74,12 +74,37 @@
         pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
       },
 
-      // giscus support
-      giscus: {
+      // plugins: [
+      //   function (hook, vm) {
+      //     hook.doneEach(function () {
+      //       var dsq = document.createElement("script");
+      //       dsq.type = "text/javascript";
+      //       dsq.async = true;
+      //       dsq.setAttribute("data-repo", "sLaffey/slaffey.github.io");
+      //       dsq.setAttribute("data-repo-id", "R_kgDONA8xWQ");
+      //       dsq.setAttribute("data-category", "Announcements");
+      //       dsq.setAttribute("data-category-id", "DIC_kwDONA8xWc4Cm7S3");
+      //       dsq.setAttribute("data-mapping", "pathname");
+      //       dsq.setAttribute("data-strict", "1");
+      //       dsq.setAttribute("data-reactions-enabled", "1");
+      //       dsq.setAttribute("data-emit-metadata", "0");
+      //       dsq.setAttribute("data-input-position", "top");
+      //       dsq.setAttribute("data-theme", "light");
+      //       dsq.setAttribute("data-lang", "zh-CN");
+      //       dsq.setAttribute("data-loading", "lazy");
+      //       dsq.setAttribute("crossorigin", "anonymous");
+      //       var iframes = document.getElementsByTagName("iframe");
+      //       document
+      //           .getElementById("main")
+      //           .insertBefore(dsq, document.getElementById("main").lastChild);
+      //     })
+      //   }
+      // ]
+      giscus:{
         repo: "sLaffey/slaffey.github.io",
-        repoID: "R_kgDONA8xWQ",
+        repoId: "R_kgDONA8xWQ",
         category: "Announcements",
-        categoryID: "DIC_kwDONA8xWc4Cm7S3",
+        categoryId: "DIC_kwDONA8xWc4Cm7S3",
         mapping: "url",
         reactionsEnabled: "1",
         strict: "1",
@@ -88,33 +113,11 @@
         theme: "light",
         lang: "zh-CN",
         loading: "lazy"
-      }
+      },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-
-  <!-- Git Talk-->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-  <script>
-    const gitalk = new Gitalk({
-      clientID: 'Github Application Client ID',
-      clientSecret: 'Github Application Client Secret',
-      repo: 'Github repo',
-      owner: 'Github repo owner',
-      admin: ['Github repo collaborators, only these guys can initialize github issues'],
-      // facebook-like distraction free mode
-      distractionFreeMode: false
-    })
-  </script> -->
-
-  <!-- Click to Copy
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script> -->
-
-  <!-- Search Support
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script> -->
 
   <!-- 字数统计 -->
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
@@ -139,24 +142,28 @@
   <!--Zoom Image-->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
-  <!-- Giscus -->
-  <!-- https://github.com/docsify-note/docsify-giscus/ -->
+  <!-- giscus评论  -->
   <link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.0/dist/giscus.css">
   <script src="https://unpkg.com/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script>
-  <!-- <script 
-  data-repo="sLaffey/slaffey.github.io"
-  data-repo-id="R_kgDONA8xWQ"
-  data-category="Announcements"
-  data-category-id="DIC_kwDONA8xWc4Cm7S3"
-  data-mapping="pathname"
-  data-strict="1"
-  data-reactions-enabled="1"
-  data-emit-metadata="0"
-  data-input-position="top"
-  data-theme="light"
-  data-lang="zh-CN"
-  crossorigin="anonymous"
-  async>
+  <!-- Giscus -->
+  <!-- https://github.com/docsify-note/docsify-giscus/ -->
+  <!-- <link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.0/dist/giscus.css"> -->
+  <!-- <script src="https://unpkg.com/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script> -->
+  <!-- <script src="https://giscus.app/client.js"
+      data-repo="sLaffey/slaffey.github.io"
+      data-repo-id="R_kgDONA8xWQ"
+      data-category="Announcements"
+      data-category-id="DIC_kwDONA8xWc4Cm7S3"
+      data-mapping="pathname"
+      data-strict="1"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="top"
+      data-theme="light"
+      data-lang="zh-CN"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
   </script> -->
 </body>
 </html>
