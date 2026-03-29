@@ -32,7 +32,7 @@
       * [高维空间](/tutorial/matiji/mtr18/high_dimensional_space)
       * [输入法](/tutorial/matiji/mtr18/input_method)
       * [序列异或](/tutorial/matiji/mtr18/sequence_xor)
-    * [码蹄周赛第30场（提高组）](/tutorial/matiji/mtr18/)
+    * [码蹄周赛第30场（提高组）](/tutorial/matiji/mtr30/)
   * [Legacy](/tutorial/legacy/)
     * [「NOIP 2013」货车运输](/tutorial/legacy/transport)
     * [「NOIP 2014」联合权值](/tutorial/legacy/weight)
